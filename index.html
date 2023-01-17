@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        
+        body {
+            margin: 0;
+            font-family: Arial;
+            font-size: 17px;
+        }
+        
+        #myVideo {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+            z-index: -69;
+        }
+        
+        .content {
+            position: fixed;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: #f1f1f1;
+            width: 50%;
+            padding: 20px;
+        }
+        
+        #myBtn {
+            width: 200px;
+            font-size: 18px;
+            padding: 10px;
+            border: none;
+            background: #000;
+            color: #fff;
+            cursor: pointer;
+        }
+        
+        .name {
+            z-index: 2;
+        }
+        
+        #myBtn:hover {
+            background: #ddd;
+            color: black;
+        }
+    </style>
+</head>
+
+
+<body>
+
+    <embed src=".sounds/Ocean-waves-and-seagulls-relaxation-sounds.wav" loop="true" autostart="true" width="2" height="0">
+    <div>
+
+        <video autoplay muted loop id="myVideo">
+        <source src="/pictures/seagull background.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+        </video>
+        <div class="content" style="margin-right: 60%; margin-bottom: 60%;">
+            <h1>Kyle S Talbott</h1>
+            <p>
+                Email - Codekingkyle@gmail.com <br>Phone - (757) - 755 - 1016 <br> Adress - 6412 Main Street, Gloucester Va 23061
+        </div>
+        <div class="content" style="margin-right: 60%;">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique
+                delicatissimi pro.
+            </p>
+            <button id="myBtn" onclick="myFunction()">Pause</button>
+        </div>
+    </div>
+    <div>
+        <video autoplay muted loop id="myVideo">
+        <source src="/pictures/seagull background.mp4" type="video/mp4"> Your browser does not support HTML5 video.
+        </video>
+        <div class="content" style="margin-right: 60%; margin-bottom: 60%;">
+            <h1>Kyle S Talbott</h1>
+            <p>
+                Email - Codekingkyle@gmail.com <br>Phone - (757) - 755 - 1016 <br> Adress - 6412 Main Street, Gloucester Va 23061
+        </div>
+        <div class="content" style="margin-right: 60%;">
+            <h2>Heading</h2>
+            <p>Lorem ipsum dolor sit amet, an his etiam torquatos. Tollit soleat phaedrum te duo, eum cu recteque expetendis neglegentur. Cu mentitum maiestatis persequeris pro, pri ponderum tractatos ei. Id qui nemore latine molestiae, ad mutat oblique
+                delicatissimi pro.
+            </p>
+            <button id="myBtn" onclick="myFunction()">Pause</button>
+        </div>
+    </div>
+    </div>
+
+
+</body>
+
+</html>
